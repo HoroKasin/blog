@@ -35,14 +35,12 @@ public class CustomerManagement {
 			
 			switch(menu.charAt(0)) {
 			
-			case 'i':
-			case 'ち':	
+			case 'i':	
 				System.out.println("Enter customer information.");
 				insertData();
 				System.out.println("Customer information is entered as normal..");
 				break;
 			case 'p':
-			case 'つ':
 				System.out.println("View previous customer information..");
 				if(index <= 0) {
 					System.out.println("Information from previous customer does not exist");
@@ -52,7 +50,6 @@ public class CustomerManagement {
 				}				
 				break;
 			case 'n':
-			case 'ぬ':
 				System.out.println("Check the following customer information.");
 				if(index >= count-1) {
 					System.out.println("The following customer information does not exist.");
@@ -63,7 +60,6 @@ public class CustomerManagement {
 				
 				break;
 			case 'c':
-			case 'ず':
 				System.out.println("View current customer information.");
 				if((index >=0) && (index < count)) {
 					printData(index);					
@@ -72,7 +68,6 @@ public class CustomerManagement {
 				}
 				break;
 			case 'u':
-			case 'づ':
 				if((index >=0) && (index < count)) {
 					System.out.println(nameList[index] + "Modify's information.");
 					updateData(index);
@@ -81,7 +76,6 @@ public class CustomerManagement {
 				}				
 				break;
 			case 'd':
-			case 'し':
 				if((index >=0) && (index < count)) {
 					System.out.println(nameList[index] + "Delete 's information.");
 					deleteData(index);
@@ -90,7 +84,6 @@ public class CustomerManagement {
 				}				
 				break;
 			case 'q':
-			case 'げ':
 				System.out.println("Exit the program.");
 				scan.close();
 				System.exit(0);
