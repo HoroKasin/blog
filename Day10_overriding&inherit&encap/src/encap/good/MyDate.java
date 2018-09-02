@@ -2,8 +2,7 @@ package encap.good;
 
 public class MyDate {
 	
-	//은닉(캡슐화)을 사용하려면 숨기고 싶은 변수의 앞부분에
-	//private이라는 제한자를 붙입니다.
+	//private
 	private int year;
 	private int month;
 	private int day;
@@ -11,10 +10,10 @@ public class MyDate {
 	public void setDay(int d) {
 		
 		if((d<1) || (d>31)) {
-			System.out.println("잘못된 날짜입력입니다.");
+			System.out.println("Invalid date input.");
 		}else {
 			day = d;
-			System.out.println("날짜정보: " + day + "일");
+			System.out.println("Date information: " + day + "day");
 		}
 	}
 	
@@ -24,7 +23,7 @@ public class MyDate {
 	
 	public void setMonth(int m) {
 		if((m<1) || (m>12)) {
-			System.out.println("잘못된 월 수 입력입니다.");
+			System.out.println("Invalid number of months.");
 		}else {
 			month = m;
 		}
@@ -36,7 +35,7 @@ public class MyDate {
 
 	public void setYear(int y) {
 		if(y < 0) {
-			System.out.println("잘못된 연도 입력입니다.");
+			System.out.println("Invalid year input.");
 		}else {
 			year = y;
 		}
