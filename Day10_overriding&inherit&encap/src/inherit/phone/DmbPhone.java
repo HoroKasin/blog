@@ -11,14 +11,14 @@ public class DmbPhone extends Phone {
 	}
 	
 	void turnOnDmb() {
-		System.out.println("방송 수신을 시작합니다.");
+		System.out.println("Start receiving the broadcast.");
 	}
 	void turnOffDmb() {
-		System.out.println("방송 수신을 종료합니다.");
+		System.out.println("Terminate reception.");
 	}
 	void changeChannel(int pChannel) {
 		channel = pChannel;
-		System.out.println("채널 " + channel + "번으로 변경합니다.");		
+		System.out.println("channel " + channel + "Change to number.");		
 	}
 }
 
