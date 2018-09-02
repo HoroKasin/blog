@@ -2,20 +2,9 @@ package overloading.basic;
 
 public class Basic {
 	
-	//inputMessage(int)
 	void inputMessage(int a) {
 		System.out.println("one integer entered.");
 	}
-	
-	//inputMessage(int)	
-//	void inputMessage(int i) {
-//		System.out.println("정수 한개가 입력돼따!");
-//	}
-	
-	//inputMessage(int)
-//	int inputMessage(int num) {
-//		return 10;
-//	}
 	
 	//inputMessage(String)
 	void inputMessage(String str) {
