@@ -4,15 +4,15 @@ public class WhileExample1 {
 
 	public static void main(String[] args) {
 
-		// 1 ~ 10까지의 누적 합을 구하는 방법
+		// To obtain the cumulative sum from 1 to 10
 		int num = 1;
 		int sum = 0;
 		
 		while(num <= 10) {
 			sum += num;
-			num++; //제어변수 조작을 통해서 반복문을 종료시키기 위해서 사용 
+			num++; // use to end a repeating statement through control variable control
 		}
-		System.out.println("1부터 10까지의 합은:>" + sum);
+		System.out.println("The sum of 1 to 10 is:>" + sum);
 	}
 
 }
