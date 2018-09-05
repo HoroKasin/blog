@@ -8,12 +8,12 @@ public class ifExample4 {
 
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("점수를 입력하세요.");
+		System.out.println("Please enter a score.");
 		int point = scan.nextInt();
 
 		if(point >= 90) {
 			if(point > 100) {
-				System.out.println("시험이 100까지만 있는데???...");
+				System.out.println("The test score is up to 100 points.");
 			}else if(point >= 95) {
 				System.out.println("A++!!!!");
 			}else {
@@ -27,7 +27,7 @@ public class ifExample4 {
 			System.out.println("D!!");
 		}else {
 			System.out.println("F....");
-			System.out.println("제발좀 공부좀 하세요!!");
+			System.out.println("Please study.!!");
 		}
 	
 	scan.close();
