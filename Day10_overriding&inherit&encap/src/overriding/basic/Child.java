@@ -3,9 +3,9 @@ package overriding.basic;
 public class Child extends Parent {
 	
 	void method2() {
-		System.out.println("재정의된 2번 메서드 호출!");
+		System.out.println("Overridden Number 2 method calls!");
 	}
 	void method3() {
-		System.out.println("자식의 3번 메서드 호출!");
+		System.out.println("Call method 3 for your child!");
 	}
 }
