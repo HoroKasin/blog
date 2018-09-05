@@ -6,9 +6,9 @@ public class SwitchCalculator {
 	public static void main(String[] args) {
 		
 		if(args.length != 3) {
-			System.out.println("두 수를 계산하는 계산기입니다.");
-			System.out.println("사용 예: 5 x 4");
-			return; //당장 메서드를 나가라.
+			System.out.println("A calculator that calculates two numbers.");
+			System.out.println("ex: 5 x 4");
+			return; 
 		}
 		
 		int n1 = Integer.parseInt(args[0]);
@@ -17,16 +17,16 @@ public class SwitchCalculator {
 		switch(args[1]) {
 		
 		case "+":
-			System.out.println("두 수의 합은: " + (n1 + n2));
+			System.out.println("a double sum: " + (n1 + n2));
 			break;
 		case "-":
-			System.out.println("두 수의 차는: " + (n1 - n2));
+			System.out.println("Two subtractions are: " + (n1 - n2));
 			break;
 		case "x":
-			System.out.println("두 수의 곱은: " + (n1 * n2));
+			System.out.println("The two multiplication: " + (n1 * n2));
 			break;
 		case "/":
-			System.out.println("두 수의 나눗셈은: " + (n1 / n2));
+			System.out.println("Two divisions: " + (n1 / n2));
 			break;
 		}
 
