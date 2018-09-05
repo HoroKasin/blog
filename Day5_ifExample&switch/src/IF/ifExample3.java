@@ -11,16 +11,16 @@ public class ifExample3 {
 		int point = scan.nextInt();
 		
 		if(point >= 90) {
-			System.out.println("A!!");
+			System.out.println("Your grade is A.!!");
 		}else if(point >= 80){
-			System.out.println("B!!");
+			System.out.println("Your grade is B.!!");
 		}else if(point >= 70) {
-			System.out.println("C!!");
+			System.out.println("Your grade is C.!!");
 		}else if(point >= 60) {
-			System.out.println("D!!");
+			System.out.println("Your grade is D.!!");
 		}else {
-			System.out.println("F..........");
-			System.out.println("공부좀 하세요!!");
+			System.out.println("Your grade is F.");
+			System.out.println("You are subject to retake.");
 		}
 		scan.close();
 	}
