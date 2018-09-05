@@ -6,6 +6,6 @@ public class Person {
 	int age;
 	
 	String getInfo() {
-		return "이름: " + name + ", 나이: " + age;
+		return "name: " + name + ", age: " + age;
 	}
 }
