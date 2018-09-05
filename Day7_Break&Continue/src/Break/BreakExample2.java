@@ -16,9 +16,9 @@ public class BreakExample2 {
 			if(answer == 42) {
 				break;
 			}
-			System.out.println("xxxxxx");
+			System.out.println("You're wrong.");
 		}
-		System.out.println("정답입니다!!!");
+		System.out.println("That's correct!!!!");
 		scan.close();
 
 	}
