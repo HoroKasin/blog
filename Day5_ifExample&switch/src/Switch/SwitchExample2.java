@@ -4,29 +4,29 @@ public class SwitchExample2 {
 
 	public static void main(String[] args) {
 
-		String[] greetings = {"hello", "¾È³ç", "nihao", "konnichiwa"
+		String[] greetings = {"hello", "ì•ˆë…•", "nihao", "konnichiwa"
 				, "wago"};
-		System.out.println("¹è¿­ÀÇ ±æÀÌ:>" + greetings.length);
+		System.out.println("Length of array:>" + greetings.length);
 		
 		int i = (int)(Math.random() * greetings.length);
-		System.out.println("¼±ÅÃµÈ ´Ü¾î:>" + greetings[i]);
+		System.out.println("Selected Words:>" + greetings[i]);
 		
 		switch(greetings[i]) {
 		
 		case "hello":
-			System.out.println("¿µ¾î!"); break;
+			System.out.println("the English language!"); break;
 			
-		case "¾È³ç":
-			System.out.println("ÇÑ±¹¾î!!"); break;
+		case "ì•ˆë…•":
+			System.out.println("Korean!!"); break;
 		
 		case "nihao":
-			System.out.println("Áß±¹¾î!!"); break;
+			System.out.println("Chinese!!"); break;
 			
 		case "konnichiwa":
-			System.out.println("ÀÏº»¾î!!"); break;
+			System.out.println("the Japanese language !!"); break;
 		
 		default:
-			System.out.println("¹«½¼¾ð¾îÀÏ±î?...");
+			System.out.println("What language??...");
 		}
 
 		
