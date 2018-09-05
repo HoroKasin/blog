@@ -5,7 +5,7 @@ public class CastingExample1 {
 	public static void main(String[] args) {
 /*
 		 * Small data type variables to large data types 
-		 * When converting, Java Virtual Machine (JVM0 is used to 
+		 * When converting, Java Virtual Machine (JVM is used to 
 		 * Convert automatically. [Protection / Upcast]
 		 */
 		
