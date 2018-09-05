@@ -7,8 +7,8 @@ public class MyDate {
 	int day;
 	
 	void printDate() {
-		System.out.println("입력한 날짜는: " 
-				+ year + "년" + month 
-				+ "월" + day + "일입니다.");
+		System.out.println("The date you entered: " 
+				+ year + "-" + month 
+				+ "-" + day + "!!");
 	}
 }
