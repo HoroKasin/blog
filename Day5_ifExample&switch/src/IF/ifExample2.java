@@ -8,22 +8,22 @@ public class ifExample2 {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("키와 나이를 입력을 하십시오.");
-		System.out.print("키:>");
+		System.out.println("Enter the height and age.");
+		System.out.print("height:>");
 		double height = scan.nextDouble();
 		
-		System.out.println("나이:>");
+		System.out.println("age:>");
 		int age = scan.nextInt();
 		
 		System.out.println("===============");
 		
-		//키가 140이고, 나이가 8살 이상일 경우만 놀이기구 탑승
+		Ride ride only when height is 140 and age is 8 years or older
 		if((height >= 180) && (age >= 8 )) {
-			System.out.println("놀이기구에 탑승이 가능합니다.");
+			System.out.println("You can board the ride.");
 		}else {
-			System.out.println("놀이기구 탑승이 불가능합니다.");
+			System.out.println("You cannot board the ride.");
 		}
-		System.out.println("즐거운 하루 보내세요.~");
+		System.out.println("Have a nice day.~");
 		scan.close();
 	}
 
