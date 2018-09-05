@@ -6,10 +6,10 @@ public class DoWhileExample {
 
 	public static void main(String[] args) {
 
-		//정수를 입력받아서 1부터 해당 숫자까지의 누적합계를 구하는 방법
+	//How to obtain cumulative sum from 1 to the corresponding number by receiving an integer
 		 Scanner scan = new Scanner(System.in);
 		 
-		 System.out.print("정수를 입력하십시오.");
+		 System.out.print("Please enter an integer.");
 		 int target = scan.nextInt();
 		 
 		 int num = 1;
@@ -19,7 +19,7 @@ public class DoWhileExample {
 			 sum += num;
 			 num++;
 		 }while(num <= target);
-		 System.out.println("1부터" + target + "까지의 누적합계:>" + sum);
+		 System.out.println("1 ~" + target + "Cumulative total:>" + sum);
 		 
 		 scan.close();
 		
