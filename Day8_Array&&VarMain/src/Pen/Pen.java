@@ -6,6 +6,6 @@ public class Pen {
 	int price;
 	
 	void write() {
-		System.out.println(color + "색 글을 씁니다.");
+		System.out.println(color + "Color");
 	}
 }
