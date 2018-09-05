@@ -4,11 +4,11 @@ public class EnhancedForLoop {
 
 	public static void main(String[] args) {
 		
-		String[] week = {"일", "월", "화", 
-				"수", "목", "금", "토"};
+		String[] week = {"Sunday", "Monday", "Tuesday", 
+				"Wednesday", "Thursday", "Friday", "Saturday"};
 		
 		for(String day : week) {
-			System.out.println(day + "요일");
+			System.out.println(day + "Day");
 		}
 		
 		System.out.println("---------------------");
@@ -19,10 +19,10 @@ public class EnhancedForLoop {
 		for(int score : scores) {
 			sum += score;
 		}
-		System.out.println("점수 총점: " + sum + "점");
+		System.out.println("Total score: " + sum);
 		
 		double avg = (double)sum / scores.length;
-		System.out.println("점수 평균: " + avg + "점");
+		System.out.println("Score mean: " + avg);
 
 	}
 
