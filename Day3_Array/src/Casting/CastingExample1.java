@@ -3,31 +3,30 @@ package Casting;
 public class CastingExample1 {
 
 	public static void main(String[] args) {
-
-		/*
-		 * Å©±â°¡ ÀÛÀº µ¥ÀÌÅÍ Å¸ÀÔ º¯¼ö¸¦ Å« µ¥ÀÌÅÍÅ¸ÀÔÀ¸·Î 
-		 * º¯È¯ÇÒ ¶§´Â ÀÚ¹Ù °¡»ó ¸Ó½Å(JVM0ÀÌ µ¥ÀÌÅÍ Å¸ÀÔÀ» 
-		 * ÀÚµ¿À¸·Î º¯È¯ÇÑ´Ù. [Promotion / Upcasting]
+/*
+		 * Small data type variables to large data types 
+		 * When converting, Java Virtual Machine (JVM0 is used to 
+		 * Convert automatically. [Protection / Upcast]
 		 */
 		
 		byte b = 10;
-		System.out.println("Çü º¯È¯Àü: >" + b);
-		int i = b; // byte - > int ÀÚµ¿ Çü º¯È¯ 
-		System.out.println("Çü º¯È¯ÈÄ: >"+ i);
+		System.out.println("Before Transformation: >" + b);
+		int i = b; 
+		System.out.println("AfterTransformation >"+ i);
 
 		System.out.println("----------------------");
 				
-		char c = '°¡';
-		System.out.println("Çü º¯È¯Àü: >" + c);
-		int j = c; //char -> int ÀÚµ¿ Çü º¯È¯
-		System.out.println("Çü º¯È¯ÈÄ: >"+ j);
+		char c = 'ê°€';
+		System.out.println("Before Transformation: >" + c);
+		int j = c; 
+		System.out.println("AfterTransformation: >"+ j);
 		
 		System.out.println("----------------------");
 		
 		int k = 500;
-		System.out.println("Çü º¯È¯Àü: >" + k);
-		double  d = k; // int -> double ÀÚµ¿ Çü º¯È¯
-		System.out.println("Çü º¯È¯ÈÄ: >"+ d);
+		System.out.println("Before Transformation: >" + k);
+		double  d = k; 
+		System.out.println("AfterTransformation: >"+ d);
 	}
 
 }
