@@ -4,11 +4,11 @@ public class ForQUuiz {
 
 	public static void main(String[] args) {
 
-		// 2 ~ 9±îÁöÀÇ ³­¼ö¸¦ »ı¼º ÈÄ ·£´ıÀ¸·Î ±¸±¸´ÜÀÌ Ãâ·ÂµÇ´Â ¹æ¹ı
+		// To generate a random number of random multiplication
 		
 		int dan = (int)(Math.random() * 8) + 2;
 		
-		System.out.println("·£´ı ±¸±¸´Ü " + dan + "´Ü");
+		System.out.println("a random population " + dan + "ë‹¨");
 		System.out.println("-------------");
 		for(int i = 1; i <= 9; i ++) {
 			System.out.println(dan + " x " + i + " = " + dan * i);
