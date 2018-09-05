@@ -6,22 +6,22 @@ public class Phone {
 	String color;
 	
 	void powerOn() {
-		System.out.println("전원을 켭니다.");
+		System.out.println("Turn on the power.");
 	}
 	void powerOff() {
-		System.out.println("전원을 끕니다.");
+		System.out.println("Turn off the power.");
 	}
 	void ring() {
-		System.out.println("벨이 울립니다.");
+		System.out.println("The bell rings.");
 	}
 	void sendVoice(String message) {
-		System.out.println("나: " + message);
+		System.out.println("Me: " + message);
 	}
 	void recieveVoice(String message) {
-		System.out.println("상대방: " + message);
+		System.out.println("the other party: " + message);
 	}
 	void hangUp() {
-		System.out.println("전화를 끊습니다.");
+		System.out.println("Hang up the phone.");
 	}
 	
 }
