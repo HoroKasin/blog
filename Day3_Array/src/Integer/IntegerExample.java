@@ -11,18 +11,18 @@ public class IntegerExample {
 		
 		System.out.println(d);
 		
-		//2진수를 저장할 때는 정수앞에 0b를 붙인다.
+		//When storing binary digits, attach 0b to the front of the integer.
 		int bin = 0b1010;
 		
-		//8진수를 저장할 때는 정수앞에 0만 붙인다.
+		//When storing octal numbers, attach only zeros to the front of the integer.
 		int octa = 064;
 		
-		//16진수를 저장할 때는 정수 앞에 0x를 붙인다.
+		//When saving hexadecimal numbers, place 0x in front of the integer.
 		int hexa = 0xa4b;
 		
-		System.out.println("2진수 1010>" + bin);
-		System.out.println("8진수 64>" + octa);
-		System.out.println("16진수 3a4b>" + hexa);
+		System.out.println("Binary 1010>" + bin);
+		System.out.println("octal 64>" + octa);
+		System.out.println("Hex 3a4b>" + hexa);
 	}
 
 }
