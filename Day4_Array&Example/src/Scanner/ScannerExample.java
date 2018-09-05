@@ -6,15 +6,15 @@ public class ScannerExample {
 
 	public static void main(String[] args) {
 
-		//1. 스캐너 객체 생성
+		//1. Creating scanner objects
 		Scanner scan = new Scanner(System.in);
 		
-		//2. 스캐너 클래스가 가지고 있는 입력메서드를 사용하여 데이터를 입력받기
-		System.out.println("이름을 입력하시오.");
+		//2. Receive data using input message that scanner class has
+		System.out.println("Enter the name");
 		System.out.print(">");
 		
 		String name  = scan.next();
-		System.out.println("당신의 이름은:>" + name);
+		System.out.println("Your name?:>" + name);
 		
 		scan.close();
 		
