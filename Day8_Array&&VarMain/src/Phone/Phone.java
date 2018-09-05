@@ -7,8 +7,8 @@ public class Phone {
 	int price;
 	
 	Phone() {
-		color = "코발트블루";
-		model = "갤럭시 S9 노트";
+		color = "Cobalt Blue";
+		model = "Galaxy S9";
 		price = 1300000;
 	}
 	
@@ -24,17 +24,15 @@ public class Phone {
 		price = pPrice;
 	}
 	
-	//메서드 선언
 	void call() {
-		System.out.println(model + "로 전화를 겁니다.");
+		System.out.println(model + "Call.");
 	}
 	
 	void info() {
-		System.out.println("------핸드폰의 정보------");
-		System.out.println("색상: " + color);
-		System.out.println("모델: " + model);
-		System.out.println("가격: " + price);
-		
+		System.out.println("------information on cell phones------");
+		System.out.println("color: " + color);
+		System.out.println("model: " + model);
+		System.out.println("price: " + price);
 	}
 }
 
