@@ -4,25 +4,25 @@ public class ConditionalExample {
 
 	public static void main(String[] args) {
 
-		//³­¼ö¸¦ ¹ß»ý½ÃÅ°´Â ¸Þ¼­µå random()
-		//random() ¸Þ¼­µå 0.0ÀÌ»ó 1.0¹Ì¸¸ÀÇ ³­¼ö¸¦ ¹ß½ß
+		//method random ()
+		//Random () method &lt;0.0 or 1.0
 		double d = Math.random() * 10; // 0 ~ 10
 		System.out.println(d);
 		System.out.println("==================");
 		
-		//1ÀÌ»ó 10ÀÌÇÏ ³­¼ö ¹ß»ý½ÃÅ°±â
+		//create any number below 10
 		int i = (int)d + 1; //[0+1] = 1 ~ 10
 		System.out.println(i);
 		System.out.println("==================");
 		
-		// -4 ~ 5 ±îÁöÀÇ Á¤¼ö ³­¼ö ¹ß»ý½ÃÅ°±â
+		// make an integer random number from -4 to 5
 		int j = 5 - (int)(Math.random() * 10); // 1 - 5 = -4 : 10 - 5 = 5
-		System.out.println("·£´ø°ª!!!:>" + j);
+		System.out.println("ëžœë˜ê°’!!!:>" + j);
 		System.out.println("==================");
 		
-		//3Ç× Á¶°Ç¿¬»êÀÚ (Á¶°Ç½Ä ? ¿¬»ê½Ä1 : ¿¬»ê½Ä2)
+		////3 condition operator (ì¡°ê±´ì‹ ? ì—°ì‚°ì‹1 : ì—°ì‚°ì‹2)
 		int abc = (i >= 0) ? i : -i;
-		System.out.println(i + "ÀÇ Àý´ë°ªÀº:>" + abc);
+		System.out.println(i + "Absolute value:>" + abc);
 		
 	}
 
