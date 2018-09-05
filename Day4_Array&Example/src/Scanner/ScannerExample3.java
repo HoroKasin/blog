@@ -8,29 +8,29 @@ public class ScannerExample3 {
 
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("국어점수 입력:");
+		System.out.println("Enter Korean score:");
 		System.out.print(">");
 		
 		int kor = scan.nextInt();
 		
-		System.out.println("수학점수 입력:");
+		System.out.println("Enter math score:");
 		System.out.print(">");
 		
 		int math = scan.nextInt();	
 		
-		System.out.println("영어점수 입력:");
+		System.out.println("Enter English score:");
 		System.out.print(">");
 		
 		int eng = scan.nextInt();
 
-		System.out.println("과학점수 입력:");
+		System.out.println("Enter science score:");
 		System.out.print(">");
 		
 		int sc = scan.nextInt();
 		
 		int sum = (kor + math + eng + sc) / 4;
 		
-		System.out.println("당신의 평균은 점수는:>" + sum +"입니다." );
+		System.out.println("Your average score is:>" + sum +"It is.." );
 		
 		scan.close();
 	}
