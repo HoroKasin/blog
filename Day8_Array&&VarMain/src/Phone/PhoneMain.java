@@ -10,12 +10,12 @@ public class PhoneMain {
 		
 		System.out.println("----------------");
 		
-		Phone anycall = new Phone("루비 레드", "애니콜");
+		Phone anycall = new Phone("red", "anycall");
 		anycall.call();
 		anycall.info();
 		
 		System.out.println("----------------");
-		Phone iphone = new Phone("검정색", "아이폰X", 1250000);
+		Phone iphone = new Phone("black", "Iphone", 1250000);
 		iphone.call();
 		iphone.info();
 
