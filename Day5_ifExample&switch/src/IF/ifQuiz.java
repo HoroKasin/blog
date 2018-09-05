@@ -8,19 +8,19 @@ public class ifQuiz {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("정수 한개를 입력 하세요.");
+		System.out.println("Please enter one integer.");
 		int num = scan.nextInt();
 	
 		if((num >= 0 ) && (num % 2 ==0)){
 			if(num == 0) {
-				System.out.println("입력한 정수는 0입니다.");
+				System.out.println("The integer entered is 0.");
 			}else {
-				System.out.println(num + "은(는) 짝수입니다.");
+				System.out.println(num + "even number");
 			}
 		}else if(num >= 0 && (num  % 2 == 1)) {
-			System.out.println(num + "은(는) 홀수입니다.");
+			System.out.println(num + " odd number");
 		}else {
-			System.out.println(num + "은(는) 음의 정수 입니다.");
+			System.out.println(num + " negative integer");
 		}
 		scan.close();
 	}
