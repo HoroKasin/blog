@@ -8,7 +8,7 @@ public class SwitchExample1 {
 
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("점수 입력:");
+		System.out.println("Enter score:");
 		int point = scan.nextInt();
 		
 		switch(point / 10) {
@@ -27,7 +27,7 @@ public class SwitchExample1 {
 			
 		default:
 			System.out.println("F...");
-			System.out.println("제발 공부좀...하세요."); 
+			System.out.println("Please study...Do it.."); 
 		}
 		scan.close();
 	}
