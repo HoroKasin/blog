@@ -6,13 +6,13 @@ public class PenMain {
 		
 		Pen blackPen = new Pen();
 		
-		blackPen.color = "∞À¡§";
+		blackPen.color = "black";
 		blackPen.price = 500;
 		
 		blackPen.write();
 		
 		Pen redPen = new Pen();
-		redPen.color = "ª°∞≠";
+		redPen.color = "red";
 		redPen.price = 600;
 		
 		redPen.write();
