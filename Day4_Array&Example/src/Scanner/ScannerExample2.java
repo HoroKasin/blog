@@ -8,12 +8,12 @@ public class ScannerExample2 {
 
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("당신의 나이를 입력하시오.");
+		System.out.println("Enter your age.");
 		System.out.print(">");
 		
 		int age = scan.nextInt();
 		
-		System.out.println("당신의 나이는:>" + age);
+		System.out.println(" your age.:>" + age);
 		
 		scan.close();
 	}
