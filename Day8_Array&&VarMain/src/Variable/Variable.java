@@ -8,9 +8,9 @@ public class Variable {
 	
 		int b = 1;
 		
-		System.out.println("멤버변수: " + a);
-		System.out.println("지역변수: " + b);
-		System.out.println("매개변수: " + c);
+		System.out.println("Member variable: " + a);
+		System.out.println("Regional variable: " + b);
+		System.out.println("Parameters: " + c);
 	}
 }
 
