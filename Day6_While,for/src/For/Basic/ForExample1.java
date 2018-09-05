@@ -9,7 +9,7 @@ public class ForExample1 {
 		for(int num = 1; num <= 10; num++) {
 			sum += num;
 		}
-		System.out.println("1부터 10까지의 합계:> " + sum);
+		System.out.println("Cumulative sum from 1 to 10:> " + sum);
 		
 	}
 
