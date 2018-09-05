@@ -10,23 +10,23 @@ public class CastingExample1 {
 		 */
 		
 		byte b = 10;
-		System.out.println("Before Transformation: >" + b);
+		System.out.println("before the conversion: >" + b);
 		int i = b; 
-		System.out.println("AfterTransformation >"+ i);
+		System.out.println("After shape conversion: >"+ i);
 
 		System.out.println("----------------------");
 				
 		char c = '가';
-		System.out.println("Before Transformation: >" + c);
+		System.out.println("before the conversion: >" + c);
 		int j = c; 
-		System.out.println("AfterTransformation: >"+ j);
+		System.out.println("After shape conversion:: >"+ j);
 		
 		System.out.println("----------------------");
 		
 		int k = 500;
-		System.out.println("Before Transformation: >" + k);
+		System.out.println("before the conversion: >" + k);
 		double  d = k; 
-		System.out.println("AfterTransformation: >"+ d);
+		System.out.println("After shape conversion:: >"+ d);
 	}
 
 }
