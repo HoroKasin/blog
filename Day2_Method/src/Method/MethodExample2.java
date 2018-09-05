@@ -37,31 +37,31 @@ public class MethodExample2 {
 		System.out.println(result);
 		*/
 		int addData = add(15, 12);
-		System.out.println("두 수의 합은: " + addData);
-		System.out.println("세 수의 차는: " + sub(20, 7, 11));
+		System.out.println("the sum of two: " + addData);
+		System.out.println("a three-digit subtraction: " + sub(20, 7, 11));
 		
 		/*
-		 * 1. 3가지 정수를 곱해서 결과를 
-		 *    돌려주는 메서드를 선언하고 호출하세요.
-		 *    multi()
-		 * 2. 2개의 정수의 나눗셈의 결과를 돌려주는
-		 *    메서드를 선언하고 호출하세요.
-		 *    devide()
-		 * 3. 곱하기 연산자는 *이고, 나눗셈 연산자는 / 입니다.     
+		 * 1. Multiply the results by three integers 
+		 * Declare and call the return method.
+		 * multi()
+		 * 2.
+		 * Declare and call a method.
+		 * devide()
+		 * 3.The multiply operator is * and the division operator is / .     
 		 */
 		System.out.println("10 X 5 X 3 = " + multi(10,5,3));
 		System.out.println("560 / 280 = " + devide(560, 280));
 		
 		/*
-		 * 1. 나이를 매개값으로 받아서 출생년도를 반환하는
-		 *    메서드를 선언하고 호출하여 몇년생인지 계산하는
-		 *    로직을 구현하세요.
-		 * 2. 나이는 한국식 나이로 계산하세요.
-		 * 3. 메서드이름은 calculateBirthYear()   
+		 * 1.
+		 * Declares and invokes a method to calculate the year
+		 * Implement logic.
+		 * 2. Calculate your age as Korean-style.
+		 * 3. Method name is calculateBirtYear()   
 		 */
 		int birthYear = calculateBirthYear(24);
-		System.out.println("당신은 " 
-					+ birthYear + "년생입니다.");		
+		System.out.println("Your " 
+					+ birthYear + "Was born..");		
 
 	}
 
