@@ -20,7 +20,7 @@ public class ReturnExample {
 			}
 			System.out.print(i +" ");
 		}
-		System.out.println("return을 만나면 메서드가 강제로 종료됨.");
+		System.out.println("Method is forcefully terminated when return is encountered.");
 	}
 	
 	static int method2(int n1, int n2) {
